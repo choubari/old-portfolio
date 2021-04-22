@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6914a551.chunk.css",
-    "main.js": "/static/js/main.f9f2d9f4.chunk.js",
-    "main.js.map": "/static/js/main.f9f2d9f4.chunk.js.map",
+    "main.js": "/static/js/main.27f28243.chunk.js",
+    "main.js.map": "/static/js/main.27f28243.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a3881a3.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a3881a3.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -18,11 +18,17 @@
     "static/media/CV_FRENCH.950aecfd.pdf": "/static/media/CV_FRENCH.950aecfd.pdf",
     "static/media/about.663be9ad.svg": "/static/media/about.663be9ad.svg",
     "static/media/avatar.c361a650.svg": "/static/media/avatar.c361a650.svg",
+    "static/media/awesomemuslims.db2277bf.PNG": "/static/media/awesomemuslims.db2277bf.PNG",
+    "static/media/codinggame.87e53d67.jpg": "/static/media/codinggame.87e53d67.jpg",
+    "static/media/devproductivity.16276a8b.jpg": "/static/media/devproductivity.16276a8b.jpg",
+    "static/media/hissnmuslim.136df1fe.jpg": "/static/media/hissnmuslim.136df1fe.jpg",
+    "static/media/ieeesb.89d9cfba.PNG": "/static/media/ieeesb.89d9cfba.PNG",
     "static/media/kalah.96306a16.PNG": "/static/media/kalah.96306a16.PNG",
-    "static/media/leaf.4c15d6eb.png": "/static/media/leaf.4c15d6eb.png",
     "static/media/logo.a4f4809e.png": "/static/media/logo.a4f4809e.png",
     "static/media/me.d7be39a4.jpg": "/static/media/me.d7be39a4.jpg",
     "static/media/style.css": "/static/media/pre.69be4f1b.svg",
+    "static/media/progress.684b4b04.jpg": "/static/media/progress.684b4b04.jpg",
+    "static/media/reactlofi.b233703e.PNG": "/static/media/reactlofi.b233703e.PNG",
     "static/media/trainingtracker.5d1f0cfb.jpg": "/static/media/trainingtracker.5d1f0cfb.jpg"
   },
   "entrypoints": [
@@ -30,6 +36,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.a5373c82.chunk.js",
     "static/css/main.6914a551.chunk.css",
-    "static/js/main.f9f2d9f4.chunk.js"
+    "static/js/main.27f28243.chunk.js"
   ]
 }
