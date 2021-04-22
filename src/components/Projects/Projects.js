@@ -7,7 +7,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import hissnmuslim from "../../Assets/Projects/leaf.png";
-import trainingtracker from "../../Assets/Projects/leaf.png";
+import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
 import ieeesb from "../../Assets/Projects/leaf.png";
 import jobhunter from "../../Assets/Projects/leaf.png";
 import iwimhub from "../../Assets/Projects/leaf.png";
@@ -103,7 +103,7 @@ function Projects() {
               imgPath={trainingtracker}
               isBlog={false}
               title="Training Tracker"
-              description="Mobile Application for sports training tracking."
+              description="Mobile Application for sports training tracking between a coach and his team members using Android, JAVA and Firebase."
               link="https://github.com/choubari/Training-Tracker"
             />
           </Col>
