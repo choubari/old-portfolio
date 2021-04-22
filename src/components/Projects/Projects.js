@@ -6,18 +6,18 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import hissnmuslim from "../../Assets/Projects/leaf.png";
+import hissnmuslim from "../../Assets/Projects/hissnmuslim.jpg";
 import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
-import ieeesb from "../../Assets/Projects/leaf.png";
-import jobhunter from "../../Assets/Projects/leaf.png";
-import iwimhub from "../../Assets/Projects/leaf.png";
-import kindnet from "../../Assets/Projects/leaf.png";
-import ensiaswikihub from "../../Assets/Projects/leaf.png";
+import ieeesb from "../../Assets/Projects/ieeesb.PNG";
+import jobhunter from "../../Assets/Projects/progress.jpg";
+import iwimhub from "../../Assets/Projects/progress.jpg";
+import kindnet from "../../Assets/Projects/progress.jpg";
+import ensiaswikihub from "../../Assets/Projects/progress.jpg";
 import kalah from "../../Assets/Projects/kalah.PNG";
-import reactlofi from "../../Assets/Projects/leaf.png";
-import awesomemuslims from "../../Assets/Projects/leaf.png";
-import codinggame from "../../Assets/Projects/leaf.png";
-import devproductivity from "../../Assets/Projects/leaf.png";
+import reactlofi from "../../Assets/Projects/reactlofi.PNG";
+import awesomemuslims from "../../Assets/Projects/awesomemuslims.PNG";
+import codinggame from "../../Assets/Projects/codinggame.jpg";
+import devproductivity from "../../Assets/Projects/devproductivity.jpg";
 
 function Projects() {
   return (
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={ensiaswikihub}
               isBlog={false}
               title="ENSIAS WikiHub"
-              description="Exchange Forum related to programming with a recommendation system."
+              description="Exchange Forum (mobile app) related to programming with a vote and recommendation system using: Android, Java, XML, Firebase, MLKit."
               link="https://github.com/choubari/ENSIAS-WikiHub"
             />
           </Col>
@@ -46,8 +46,8 @@ function Projects() {
               imgPath={kindnet}
               isBlog={false}
               title="Kind Net"
-              description="2D Game which aims to raise awearness against cyberbullying."
-              link="https://github.com/choubari/"
+              description="A Unity 2D Game which aims to raise awearness against cyberbullying."
+              link="https://github.com/choubari/Kind-Net"
             />
           </Col>
 
@@ -60,7 +60,15 @@ function Projects() {
               link="https://github.com/choubari/IWIM-Hub"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jobhunter}
+              isBlog={false}
+              title="JobHunter"
+              description="IT Profile Recruitment Platform."
+              link="https://github.com/choubari/Job-Hunter"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={awesomemuslims}
@@ -75,17 +83,8 @@ function Projects() {
               imgPath={reactlofi}
               isBlog={false}
               title="Chill Choub"
-              description="A Responsive Web-App to enjoy and chill Lofi Beats."
-              link="https://github.com/choubari/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={jobhunter}
-              isBlog={false}
-              title="JobHunter"
-              description="IT Profile Recruitment Platform."
-              link="https://github.com/choubari/"
+              description="A Responsive Web-App to enjoy and chill Lofi Beats, built with ReactJS and SASS, deployed on Vercel. Music tracks are collected from ChillHop."
+              link="https://github.com/choubari/React-LoFi-Music-App"
             />
           </Col>
 
