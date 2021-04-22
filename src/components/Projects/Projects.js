@@ -13,7 +13,7 @@ import jobhunter from "../../Assets/Projects/leaf.png";
 import iwimhub from "../../Assets/Projects/leaf.png";
 import kindnet from "../../Assets/Projects/leaf.png";
 import ensiaswikihub from "../../Assets/Projects/leaf.png";
-import kalah from "../../Assets/Projects/leaf.png";
+import kalah from "../../Assets/Projects/kalah.PNG";
 import reactlofi from "../../Assets/Projects/leaf.png";
 import awesomemuslims from "../../Assets/Projects/leaf.png";
 import codinggame from "../../Assets/Projects/leaf.png";
@@ -121,8 +121,8 @@ function Projects() {
               imgPath={kalah}
               isBlog={false}
               title="Kalah Game"
-              description="KALAH also called MANCALA is a game played on a board of two rows, each consisting of six round pits that have a large store at either end called kalah.
-The object of the game is to capture more seeds than one's opponent."
+              description="Also called MANCALA, it's a game played on a board of two rows, each consisting of six round pits that have a large store at either end called kalah.
+The object of the game is to capture more seeds than one's opponent. The project was developped using C language and SDL2 Library"
               link="https://github.com/moadfakhri/KALAH-"
             />
           </Col>
