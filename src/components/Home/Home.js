@@ -16,12 +16,12 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello World! <span className="wave">👋🏻</span>
+                Hello World!<span className="wave">👋🏻</span>
               </h1>
 
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Kawtar CHOUABRI</strong>
+                <strong className="main-name"> Kawtar CHOUBARI</strong>
               </h1>
 
               <div style={{ padding: 45, textAlign: "left" }}>
@@ -29,12 +29,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5}>
+            <Col md={5} className="m-auto">
               <img
                 src={homeLogo}
-                style={{ width: "80%" }}
+                style={{ width: "75%" }}
                 alt="home pic"
-                className="img-fluid"
+                className="d-block mx-auto img-fluid"
               />
             </Col>
           </Row>
