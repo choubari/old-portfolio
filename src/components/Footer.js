@@ -24,14 +24,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/choubari_"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/kawtar-choubari-2226b0150/"
                 style={{ color: "white" }}
               >
@@ -44,6 +36,38 @@ function Footer() {
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/choubari_"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://stackoverflow.com/users/12802591/choubari"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-stack-overflow"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://dribbble.com/choubari"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-dribbble"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.behance.net/choubari"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-behance"></i>
               </a>
             </li>
           </ul>
