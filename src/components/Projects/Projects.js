@@ -11,7 +11,7 @@ import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
 import ieeesb from "../../Assets/Projects/ieeesb.PNG";
 import jobhunter from "../../Assets/Projects/progress.jpg";
 import iwimhub from "../../Assets/Projects/progress.jpg";
-import kindnet from "../../Assets/Projects/progress.jpg";
+import kindnet from "../../Assets/Projects/kindnet.PNG";
 import ensiaswikihub from "../../Assets/Projects/progress.jpg";
 import kalah from "../../Assets/Projects/kalah.PNG";
 import reactlofi from "../../Assets/Projects/reactlofi.PNG";
