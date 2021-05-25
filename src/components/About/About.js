@@ -23,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">AM I?</strong>
+              Me<strong className="purple"> découvrir</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -36,7 +36,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Technical <strong className="purple">Skills </strong>
+          Compétences <strong className="purple">Techniques </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-java-plain-wordmark" />
@@ -54,7 +54,7 @@ function About() {
           <Techstack iconName="devicon-git-plain-wordmark" />
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          Mes <strong className="purple">Outils</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-github-original" />

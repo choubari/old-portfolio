@@ -15,39 +15,43 @@ function Resume() {
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf_fr} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download CV - French
+            <i className="fas fa-download">&nbsp;</i>Télécharger CV - Français
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-title">Experience Professionnelle</h3>
             <Resumecontent
-              title="Flutter Developer - Daba'Go"
-              date="July 2020 - August 2020"
+              title="Dévelopeur Flutter - Daba'Go"
+              date="Juillet 2020 - Aout 2020"
               content={[
-                "Developping and implementing a library of front-end reusable services using Dart and Flutter.",
-                "Documenting every piece of code I wrote.",
-                "Contributing to designing front-end elements and illustrations.",
-                "Beta tester of the mobile application.",
+                "Développement et implementation d'une library front-end de services réutilisables en utilisant Dart et Flutter.",
+                "Réalisation d'une documentation complète et bien détaillée.",
+                "Contribution à la conception d'éléments front-end et d'illustrations.",
+                "Tester la Beta Version de l'application mobile.",
               ]}
             />
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="National School of Computer Science and System Analysis, ENSIAS"
+              title="Ecole National d'Informatique et d'Analyse des Systèmes, ENSIAS"
               date="2019 - 2022"
-              content={["Web & Mobile Computing Engineering "]}
+              content={["Ingénierie du Web et Informatique Mobile"]}
             />
             <Resumecontent
               title="CPGE - Lycee Mohammed 6"
               date="2017 - 2019"
-              content={["Preparatory Classes, Mathematics and Physics Branch"]}
+              content={["Classes Préparatoires, Mathematique et Physique (MP)"]}
             />
             <Resumecontent
-              title="El Mansour Eddahbi High School"
+              title="Lycée El Mansour Eddahbi"
               date="2016 - 2017"
-              content={["Scientific Baccalaureat, Mathematics Option"]}
+              content={[
+                "Baccalaureat Scientifique, Science Mathematique B Option Française",
+              ]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h3 className="resume-title">
+              Participation aux compétitions de programmation
+            </h3>
             <Resumecontent
               title=""
               content={[
@@ -58,40 +62,40 @@ function Resume() {
             />
           </Col>
           <Col md={6} className="resume-right">
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <h3 className="resume-title">Activités Parascolaires</h3>
             <Resumecontent
-              title="Content Creator [Instagram: @choubari_]"
+              title="Créateur de Contenu [Instagram: @choubari_]"
               content={[
-                "Sharing Coding Knowledge using beautiful designed posts.",
-                "Organizing many webinars for free about coding and design.",
-                "Doing One-to-One Consulting sessions in my free time.",
+                "Partager des connaissances sur l'informatique avec de beaux articles conçus.",
+                "Organiser gratuitement de nombreux webinaires sur le codage et le design.",
+                "Faire des sessions de conseil individuelles pendant mon temps libre.",
               ]}
             />
             <Resumecontent
-              title="Chair [IEEE ENSIAS Student Branch]"
+              title="Présidente [IEEE ENSIAS Student Branch]"
               content={[
-                "Organizing many volunteering activities and webinars with international speaksers.",
+                "Organisation de nombreuses activités de volontariat et webinaires avec des conférenciers internationaux.",
               ]}
             />
             <Resumecontent
-              title="Co-Founder and Program Manager [Morocco IoT & AI Challenge]"
+              title="Co-Fondatrice et Program Manager [Morocco IoT & AI Challenge]"
               content={[
-                "Bringing Arab IoT & AI Challenge Local Qualifications to Morocco",
-                "Organizing many webinars, training and mentoring sessions for the participants",
-                "Omnisat from Morocco Won the first place on Arab IoT & AI Challenge (2020, the same year when we organized the first edition in Morocco)",
+                "Organiser les qualifications locales de l'Arab IoT & AI Challenge au Maroc",
+                "Organiser des webinars, sessions de formation et de mentorat pour les participants",
+                "L'équipe Omnisat du Maroc gagne le premier prix en Arab IoT & AI Challenge (2020, la même année où nous avons organisé la première édition au Maroc)",
               ]}
             />
             <Resumecontent
               title="Graphic Designer [Olympiades ENSIAS]"
               content={[
-                "Designing Flyers, Social Media Posts, Event covers and Thumbnails.",
+                "Création des designs de brochures, posts du Social Media, affiches des événemets et photos de couvertures.",
               ]}
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download CV - English
+            <i className="fas fa-download">&nbsp;</i>Télécharger CV - English
           </Button>
         </Row>
       </Container>

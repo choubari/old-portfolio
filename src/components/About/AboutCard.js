@@ -9,26 +9,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hey There, I am <span className="purple">Kawtar CHOUBARI </span>,
-            Web & Mobile Engineering Student from{" "}
-            <span className="purple"> ENSIAS</span> - Rabat, Morocoo.
+            Salut, je suis <span className="purple">Kawtar CHOUBARI </span>,
+            Elève ingénieur en Ingénierie du Web et Informatique Mobile à l'
+            <span className="purple"> ENSIAS</span> - Rabat, Maroc.
             <br />
             <br />
-            Apart from being a student, I'm also :
+            En plus d'être étudiant, je suis :
           </p>
           <ul>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Graphic Designer
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Content Creator
+              <i className="far fa-hand-point-right"></i> Créateur de Contenu
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> IEEE Volunteer
+              <i className="far fa-hand-point-right"></i> Volontaire chez IEEE
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Morocco IoT & AI
-              Challenge Co-Founder and Program Manager
+              <i className="far fa-hand-point-right"></i> Co-fondatrice et
+              Program Manager du Morocco IoT & AI Challenge
             </li>
           </ul>
         </blockquote>

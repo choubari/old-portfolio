@@ -47,7 +47,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+                <i className="fas fa-home"></i> Acceuil
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -56,7 +56,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <i className="far fa-user"></i> A propos
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -65,7 +65,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fab fa-codepen"></i> Projects
+                <i className="fab fa-codepen"></i> Projets
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -74,7 +74,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <i className="far fa-file-alt"></i> Resumé
               </Nav.Link>
             </Nav.Item>
 

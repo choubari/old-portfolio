@@ -15,7 +15,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank">
           <i className="cil-external-link">&nbsp;</i>
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isBlog ? "View Blog" : "Voir Projet"}
         </Button>
       </Card.Body>
     </Card>

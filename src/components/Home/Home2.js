@@ -12,28 +12,31 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Let me <span className="purple"> introduce </span> myself
+              Je <span className="purple"> me présente </span>
             </h1>
             <p className="home-about-body">
-              A highly motivated person, dynamic, persevering and rigorous.
+              Une personne très motivée, dynamique, persévérante et rigoureuse.
               <br />
-              <br /> I'm{" "}
-              <b className="purple">Web & Mobile Engineering Student </b>
-              at ENSIAS, Rabat.
-              <br />
-              <br />
-              I’m also chair of
-              <b className="purple"> IEEE ENSIAS Student Branch</b>, Co-Founder
-              and Program Manager of
-              <b className="purple"> Morocco IoT & AI Challenge</b>, a capacity
-              building and pre-incubation program for students and startups that
-              have innovative ideas in the areas of Internet of Things (IoT),
-              Artificial Intelligence (AI) and related fields.
+              <br /> Je suis élève ingénieure en{" "}
+              <b className="purple">
+                Ingénierie du Web et Informatique Mobile{" "}
+              </b>
+              à l'ENSIAS, Rabat.
               <br />
               <br />
-              I'm also a<b className="purple"> content creator </b> on Instagram
-              where I mix between my graphic design skills and sharing my coding
-              knowledge.
+              Je suis aussi Présidente de l'
+              <b className="purple">IEEE ENSIAS Student Branch</b>,
+              Co-Fondatrice et Program Manager du
+              <b className="purple"> Morocco IoT & AI Challenge</b>, est une
+              compétition qui vise à promouvoir la recherche et l'innovation
+              dans les domaines de l'intelligence artificielle et l'internet des
+              objets.
+              <br />
+              <br />
+              J'effectue aussi la{" "}
+              <b className="purple"> création de contenu </b> sur Instagram où
+              je mixe entre mes compétences en design graphique, informatique et
+              mon esprit de partage des connaissances.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -44,9 +47,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Contact</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N'hésiter pas à me <span className="purple">contacter </span>sur
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
