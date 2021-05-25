@@ -1,7 +1,14 @@
 # Personal Portfolio with ReactJS
 
 
-### Live [Demo](choubari.github.io/)
+### Live [Demo on Github Pages](choubari.github.io/)
+
+
+You can check also :
+
+#### French Version on a seperate branch [deployed on Netlify](https://choubari-eportfolio.netlify.app/) 
+
+
 
 ## Features
 
