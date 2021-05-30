@@ -55,7 +55,7 @@ function Home2() {
         <Row>
           <Col md={2}>
             <Button variant="primary" href={pdf_fr} target="_blank">
-              <i className="fas fa-download">&nbsp;</i>Télécharger CV
+              <i className="fas fa-download">&nbsp;</i>CV
             </Button>
           </Col>
           <Col md={2}>
@@ -75,7 +75,7 @@ function Home2() {
           </Col>
           <Col md={2}>
             <Button variant="primary" href={cid} target="_blank">
-              <i className="fas fa-download">&nbsp;</i>Cartes d'identités
+              <i className="fas fa-download">&nbsp;</i>Cartes d'identité
               d'entreprises
             </Button>
           </Col>
