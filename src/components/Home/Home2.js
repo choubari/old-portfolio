@@ -4,6 +4,13 @@ import myImg from "../../Assets/avatar.svg";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
+import Button from "react-bootstrap/Button";
+
+import pdf_fr from "../../Assets/CV_FRENCH.pdf";
+import cover_letter from "../../Assets/CV_FRENCH.pdf";
+import perso_project from "../../Assets/projetpersonel.pdf";
+import pro_project from "../../Assets/projetprofessionel.pdf";
+import cid from "../../Assets/CID.pdf";
 
 function Home2() {
   return (
@@ -43,6 +50,34 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={2}>
+            <Button variant="primary" href={pdf_fr} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Télécharger CV
+            </Button>
+          </Col>
+          <Col md={2}>
+            <Button variant="primary" href={cover_letter} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Lettre de motivation
+            </Button>
+          </Col>
+          <Col md={3}>
+            <Button variant="primary" href={perso_project} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Projet Personnel
+            </Button>
+          </Col>
+          <Col md={3}>
+            <Button variant="primary" href={pro_project} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Projet Professionnel
+            </Button>
+          </Col>
+          <Col md={2}>
+            <Button variant="primary" href={cid} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Cartes d'identités
+              d'entreprises
+            </Button>
           </Col>
         </Row>
         <Row>
