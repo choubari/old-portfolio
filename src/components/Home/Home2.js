@@ -5,6 +5,13 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
 
+import Button from "react-bootstrap/Button";
+import pdf_en from "../../Assets/CV_ENGLISH.pdf";
+import cover_letter from "../../Assets/CV_ENGLISH.pdf";
+import perso_project from "../../Assets/PersoProject.pdf";
+import pro_project from "../../Assets/ProProject.pdf";
+import cid from "../../Assets/CID.pdf";
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -40,6 +47,33 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={2}>
+            <Button variant="primary" href={pdf_en} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Download CV
+            </Button>
+          </Col>
+          <Col md={2}>
+            <Button variant="primary" href={cover_letter} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Cover Letter
+            </Button>
+          </Col>
+          <Col md={3}>
+            <Button variant="primary" href={perso_project} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Personal Project
+            </Button>
+          </Col>
+          <Col md={3}>
+            <Button variant="primary" href={pro_project} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Professional Project
+            </Button>
+          </Col>
+          <Col md={2}>
+            <Button variant="primary" href={cid} target="_blank">
+              <i className="fas fa-download">&nbsp;</i>Company Identity Cards
+            </Button>
           </Col>
         </Row>
         <Row>
