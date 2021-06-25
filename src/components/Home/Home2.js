@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 
 import pdf_fr from "../../Assets/CV_FRENCH.pdf";
-import cover_letter from "../../Assets/CV_FRENCH.pdf";
+import cover_letter from "../../Assets/lettremotivation-choubari.pdf";
 import perso_project from "../../Assets/projetpersonel.pdf";
 import pro_project from "../../Assets/projetprofessionel.pdf";
 import cid from "../../Assets/CID.pdf";
