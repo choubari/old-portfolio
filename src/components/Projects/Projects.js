@@ -6,11 +6,12 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import kotlinlofi from "../../Assets/Projects/progress.jpg";
 import expressit from "../../Assets/Projects/ExpressIT.png";
 import hissnmuslim from "../../Assets/Projects/hissnmuslim.jpg";
 import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
 import ieeesb from "../../Assets/Projects/ieeesb.PNG";
-import jobhunter from "../../Assets/Projects/progress.jpg";
+import jobhunter from "../../Assets/Projects/JobHunter.png";
 import iwimhub from "../../Assets/Projects/IWIMHub.jpg";
 import kindnet from "../../Assets/Projects/kindnet.PNG";
 import ensiaswikihub from "../../Assets/Projects/ENSIASWikiHub.jpg";
