@@ -14,7 +14,7 @@ function AboutCard() {
             <span className="purple"> ENSIAS</span> - Rabat, Morocoo.
             <br />
             <br />
-            Apart from being a student, I'm also :
+            Apart from being a CS student, I'm also :
           </p>
           <ul>
             <li className="about-activity">

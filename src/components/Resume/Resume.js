@@ -22,6 +22,26 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="React Native Developer - RifTech"
+              date="July 2021 - October 2021"
+              content={[
+                "Contributing to the developement of a centralized medical system.",
+                "UX/UI design of the interfaces.",
+                "Developping the mobile application for patients with React Native.",
+                "Interconnecting the backend and the mobile app with APIs.",
+              ]}
+            />
+            <Resumecontent
+              title="UX/UI & Front-End Developer - Orange Maroc"
+              date="July 2021 - August 2021"
+              content={[
+                "Brainstorming and choosing a problematic in the HeathTech field",
+                "Designing the brand identity and UX/UI of the project.",
+                "Developping the front-end ot the web application.",
+                "Linking the Front part with back-end and hardware (RaspberryPI) using APIs.",
+              ]}
+            />
+            <Resumecontent
               title="Flutter Developer - Daba'Go"
               date="July 2020 - August 2020"
               content={[
@@ -46,15 +66,6 @@ function Resume() {
               title="El Mansour Eddahbi High School"
               date="2016 - 2017"
               content={["Scientific Baccalaureat, Mathematics Option"]}
-            />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                "IEEEXtreme 14.0 : 558",
-                "Moroccan Collegiates Programming Contest, MCPC: 21",
-                "GirlsCode",
-              ]}
             />
           </Col>
           <Col md={6} className="resume-right">
@@ -85,6 +96,15 @@ function Resume() {
               title="Graphic Designer [Olympiades ENSIAS]"
               content={[
                 "Designing Flyers, Social Media Posts, Event covers and Thumbnails.",
+              ]}
+            />
+            <h3 className="resume-title">Ranks and Achivements</h3>
+            <Resumecontent
+              title=""
+              content={[
+                "IEEEXtreme 14.0 : 558",
+                "Moroccan Collegiates Programming Contest, MCPC: 21",
+                "GirlsCode",
               ]}
             />
           </Col>
