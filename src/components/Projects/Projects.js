@@ -6,13 +6,14 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import expressit from "../../Assets/Projects/ExpressIT.png";
 import hissnmuslim from "../../Assets/Projects/hissnmuslim.jpg";
 import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
 import ieeesb from "../../Assets/Projects/ieeesb.PNG";
 import jobhunter from "../../Assets/Projects/progress.jpg";
-import iwimhub from "../../Assets/Projects/progress.jpg";
+import iwimhub from "../../Assets/Projects/IWIMHub.jpg";
 import kindnet from "../../Assets/Projects/kindnet.PNG";
-import ensiaswikihub from "../../Assets/Projects/progress.jpg";
+import ensiaswikihub from "../../Assets/Projects/ENSIASWikiHub.jpg";
 import kalah from "../../Assets/Projects/kalah.PNG";
 import reactlofi from "../../Assets/Projects/reactlofi.PNG";
 import awesomemuslims from "../../Assets/Projects/awesomemuslims.PNG";
@@ -31,6 +32,15 @@ function Projects() {
           Here are the projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expressit}
+              isBlog={false}
+              title="ExpressIT"
+              description="A web application that acts as a communication bridge between deaf dumbs and the society. The project was built using : RaspberryPI, Python, ReactJS, NodeJS, AI/ML, Firebase, GCP, Figma."
+              link="https://expressit.one"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ensiaswikihub}
@@ -65,7 +75,7 @@ function Projects() {
               imgPath={jobhunter}
               isBlog={false}
               title="JobHunter"
-              description="IT Profile Recruitment Platform."
+              description="IT Profile Recruitment Platform with PHP & Symfony."
               link="https://github.com/choubari/Job-Hunter"
             />
           </Col>

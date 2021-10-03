@@ -19,7 +19,7 @@ function Home2() {
               <br />
               <br /> I'm{" "}
               <b className="purple">Web & Mobile Engineering Student </b>
-              at ENSIAS, Rabat. My Graduation will be on 2022.
+              at ENSIAS, Rabat. My Graduation will be in 2022.
               <br />
               <br />
               I’m also ex-chair and mentor of
