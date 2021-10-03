@@ -132,7 +132,7 @@ function Projects() {
               imgPath={glassmorphism}
               isBlog={false}
               title="Glassmorphism Portfolio"
-              description="Static Unresponsive Website built with HTML & CSS folowing the Glassmorphism Design Trend."
+              description="Static Unresponsive Website built with HTML & CSS following the Glassmorphism Design Trend."
               link="https://github.com/choubari/Glassmorphism-Portfolio/"
             />
           </Col>
@@ -141,8 +141,8 @@ function Projects() {
               imgPath={kalah}
               isBlog={false}
               title="Kalah Game"
-              description="Also called MANCALA, it's a game played on a board of two rows, each consisting of six round pits that have a large store at either end called kalah.
-The object of the game is to capture more seeds than one's opponent. The project was developped using C language and SDL2 Library"
+              description="A game played on a board of two rows, each consisting of six round pits that have a large store at end called kalah.
+The goal is to capture more seeds than one's opponent. Developped using C language and SDL2 Library"
               link="https://github.com/moadfakhri/KALAH-"
             />
           </Col>
