@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d68f7556.chunk.css",
-    "main.js": "/static/js/main.111b0bb9.chunk.js",
-    "main.js.map": "/static/js/main.111b0bb9.chunk.js.map",
+    "main.js": "/static/js/main.90f2e69e.chunk.js",
+    "main.js.map": "/static/js/main.90f2e69e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1c79a645.js",
     "runtime-main.js.map": "/static/js/runtime-main.1c79a645.js.map",
     "static/css/2.d6dc494e.chunk.css": "/static/css/2.d6dc494e.chunk.css",
@@ -25,6 +25,7 @@
     "static/media/awesomemuslims.db2277bf.PNG": "/static/media/awesomemuslims.db2277bf.PNG",
     "static/media/codinggame.87e53d67.jpg": "/static/media/codinggame.87e53d67.jpg",
     "static/media/devproductivity.16276a8b.jpg": "/static/media/devproductivity.16276a8b.jpg",
+    "static/media/glassmorphism.247a01fa.PNG": "/static/media/glassmorphism.247a01fa.PNG",
     "static/media/hissnmuslim.136df1fe.jpg": "/static/media/hissnmuslim.136df1fe.jpg",
     "static/media/ieeesb.89d9cfba.PNG": "/static/media/ieeesb.89d9cfba.PNG",
     "static/media/kalah.96306a16.PNG": "/static/media/kalah.96306a16.PNG",
@@ -41,6 +42,6 @@
     "static/css/2.d6dc494e.chunk.css",
     "static/js/2.d57de8f3.chunk.js",
     "static/css/main.d68f7556.chunk.css",
-    "static/js/main.111b0bb9.chunk.js"
+    "static/js/main.90f2e69e.chunk.js"
   ]
 }
