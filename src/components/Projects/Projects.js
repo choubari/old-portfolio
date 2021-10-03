@@ -11,6 +11,7 @@ import expressit from "../../Assets/Projects/ExpressIT.png";
 import hissnmuslim from "../../Assets/Projects/hissnmuslim.jpg";
 import trainingtracker from "../../Assets/Projects/trainingtracker.jpg";
 import ieeesb from "../../Assets/Projects/ieeesb.PNG";
+import glassmorphism from "../../Assets/Projects/glassmorphism.PNG";
 import jobhunter from "../../Assets/Projects/JobHunter.png";
 import iwimhub from "../../Assets/Projects/IWIMHub.jpg";
 import kindnet from "../../Assets/Projects/kindnet.PNG";
@@ -124,6 +125,15 @@ function Projects() {
               title="Hissn Al Muslim"
               description="Open Source Mobile App for Muslims (+35 stars and +15 forks on Github)."
               link="https://github.com/choubari/Muslim-App"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={glassmorphism}
+              isBlog={false}
+              title="Glassmorphism Portfolio"
+              description="Static Unresponsive Website built with HTML & CSS folowing the Glassmorphism Design Trend."
+              link="https://github.com/choubari/Glassmorphism-Portfolio/"
             />
           </Col>
           <Col md={4} className="project-card">
