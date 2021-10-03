@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8adf0102.chunk.css",
-    "main.js": "/static/js/main.b0f3242c.chunk.js",
-    "main.js.map": "/static/js/main.b0f3242c.chunk.js.map",
+    "main.js": "/static/js/main.3acf07bc.chunk.js",
+    "main.js.map": "/static/js/main.3acf07bc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a3881a3.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a3881a3.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.8adf0102.chunk.css.map": "/static/css/main.8adf0102.chunk.css.map",
     "static/js/2.a5373c82.chunk.js.LICENSE.txt": "/static/js/2.a5373c82.chunk.js.LICENSE.txt",
     "static/media/CV_ENGLISH.0ce162a3.pdf": "/static/media/CV_ENGLISH.0ce162a3.pdf",
-    "static/media/CV_FRENCH.950aecfd.pdf": "/static/media/CV_FRENCH.950aecfd.pdf",
+    "static/media/CV_FRENCH.17fbb059.pdf": "/static/media/CV_FRENCH.17fbb059.pdf",
     "static/media/about.663be9ad.svg": "/static/media/about.663be9ad.svg",
     "static/media/avatar.c361a650.svg": "/static/media/avatar.c361a650.svg",
     "static/media/awesomemuslims.db2277bf.PNG": "/static/media/awesomemuslims.db2277bf.PNG",
@@ -37,6 +37,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.a5373c82.chunk.js",
     "static/css/main.8adf0102.chunk.css",
-    "static/js/main.b0f3242c.chunk.js"
+    "static/js/main.3acf07bc.chunk.js"
   ]
 }
