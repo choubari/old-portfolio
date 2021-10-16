@@ -14,8 +14,12 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href={pdf} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Download Resume
+          </Button>
+          &nbsp; &nbsp;
           <Button variant="primary" href={pdf_fr} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download CV - French
+            <i className="fas fa-download">&nbsp;</i>Télécharger CV
           </Button>
         </Row>
         <Row className="resume">
@@ -111,7 +115,11 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download CV - English
+            <i className="fas fa-download">&nbsp;</i>Download Resume
+          </Button>
+          &nbsp; &nbsp;
+          <Button variant="primary" href={pdf_fr} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Télécharger CV
           </Button>
         </Row>
       </Container>
